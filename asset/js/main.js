@@ -21,10 +21,10 @@ let tmpHtml = '';
 // ciclo for 
 for (i = 1; i <= maxBox; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-        tmpHtml += ` <div class="box">${"FizzBuzz"}</div>`;
+        tmpHtml += ` <div class="box fizzBuzz">${"FizzBuzz"}</div>`;
         //console.log("FizzBuzz");
     } else if (i % 3 === 0) {
-        tmpHtml += ` <div class="box">${"Fizz"}</div>`;
+        tmpHtml += ` <div class="box fizz">${"Fizz"}</div>`;
         //console.log("Fizz");
     } else if (i % 5 === 0) {
         tmpHtml += ` <div class="box buzz">${"Buzz"}</div>`;
